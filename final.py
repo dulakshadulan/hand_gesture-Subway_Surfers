@@ -1,8 +1,8 @@
 # imports
 
-import cv2
-import mediapipe as mp
-from pynput.keyboard import Key, Controller 
+import cv2 # type: ignore
+import mediapipe as mp # type: ignore
+from pynput.keyboard import Key, Controller  # type: ignore
 import time
 import math
 
@@ -35,7 +35,7 @@ gesture_state = {
 
 # Lane Boundaries 
 LEFT_LANE_BOUND = 0.33
-RIGHT_LANE_BOUND = 0.60
+RIGHT_LANE_BOUND = 0.63
 
 # Indices for the tips 
 FINGER_TIPS = [mp_hands.HandLandmark.THUMB_TIP, mp_hands.HandLandmark.INDEX_FINGER_TIP, 

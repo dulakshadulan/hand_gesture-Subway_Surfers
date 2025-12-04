@@ -37,7 +37,7 @@ gesture_state = {
 # --- CONSTANTS ---
 # Lane Boundaries (Normalized 0.0 to 1.0)
 LEFT_LANE_BOUND = 0.33
-RIGHT_LANE_BOUND = 0.60
+RIGHT_LANE_BOUND = 0.63
 # Indices for the tips for finger counting (0=Thumb, 1=Index, 2=Middle, 3=Ring, 4=Pinky)
 FINGER_TIPS = [mp_hands.HandLandmark.THUMB_TIP, mp_hands.HandLandmark.INDEX_FINGER_TIP, 
                mp_hands.HandLandmark.MIDDLE_FINGER_TIP, mp_hands.HandLandmark.RING_FINGER_TIP, 
