@@ -1,4 +1,4 @@
-# hand_gesture-Subway_surfers-Temple_run
+# hand_gesture-Subway_surfers
 Control Subway Surfers (or any arrow_key-controlled game) using hand gestures detected through your laptop webcam!
 
 This project uses MediaPipe, OpenCV, and pynput to convert gestures into keyboard events.
